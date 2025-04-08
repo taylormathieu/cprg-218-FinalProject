@@ -11,9 +11,8 @@ body{
     background-size:cover;
     background-position:center;
     height: 500px;
-    display:flex;
-    justify-content:space-between;
-    align-items: center;
+    display:grid;
+    
 
 }
 
@@ -29,11 +28,18 @@ body{
 
 h1{
     color:white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arima Madurai;
+    margin:10px;
+    padding:200px;
+    left:auto;
+
+
 }
 
 #cancun{
     color:white;
+    font-family:Arima Madurai; 
+    font-size:30px;
     position:absolute;
     top:320px;
 }
@@ -49,9 +55,7 @@ nav{
     padding:0px;
     margin-top:auto;
     width:100vw; 
-    display:flex;
-    align-items: center;
-    justify-content:flex-start;
+    
 }
 
 nav ul{
@@ -93,33 +97,79 @@ nav ul li a:hover{
     color:black;
 }
 
-main{
-    display:grid;
-    grid-template-columns:repeat(2, 1fr);
-    gap:7rem;
-    justify-content: center;
-}
+
 
 h2{
     color:rgb(80, 61, 39);
     font-family:Arima Madurai;
+    text-align:center;
 }
 
 #welcome{
-    border:3px solid aliceblue;
-    background-color: aliceblue;
-    color:rgb(80, 61, 39);
-    padding:10px;
-    width:500px;
+    text-align:center; 
     font-family:Arima Madurai;
-    text-align: center;
+    
+}
+
+h4{
+    text-align:center; 
+    font-family:Arima Madurai;
+}
+
+#paradise{
+    background-color: aliceblue;
+}
+
+#section1{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:2rem;
+}
+
+#palm{
+    max-width:500px;
+    height:400px;
+    border:20px solid rgba(56, 26, 26, 0.66);
 }
 
 #couple{
     max-width:500px;
+    border:20px solid rgba(56, 26, 26, 0.66);
 }
 
 #bench{
+    max-width:500px;
+    border:20px solid rgba(56, 26, 26, 0.66);
+
+}
+
+
+
+#moments{
+    text-align:center;
+    background-color:aliceblue; 
+}
+
+.experience{
+    text-align:center; 
+    font-family:Arima Madurai;
+} 
+
+#sand{
+    max-width:500px;
+    border:20px solid rgba(56, 26, 26, 0.66);
+}
+
+#poolside{
+    max-width:500px;
+    border:20px solid rgba(56, 26, 26, 0.66);
+}
+
+#woman{
+    max-width:500px;
+}
+
+#pool-diner{
     max-width:500px;
 }
 
@@ -127,12 +177,23 @@ footer{
     background-color: pink;
     color:white;
     text-align:center;
-    padding:20px;
+    padding:10px;
+    margin:0; 
 }
 
 #footerlogo{
     display:flex;
-    width:300px;
+    max-width:300px;
     
+    
+}
+
+.list{
+    list-style-type:none;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:2rem; 
+    justify-content: center;
+    align-items: start;
 }
 

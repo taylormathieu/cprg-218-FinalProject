@@ -6,7 +6,7 @@
 body{
     background-color: antiquewhite;
 }
-
+/* header*/ 
 .header{
     background-image:url("header_img.jpg"); 
     background-size:cover;
@@ -99,7 +99,7 @@ nav ul li a:hover{
 }
 
 
-
+/* homepage*/ 
 h2{
     color:rgb(80, 61, 39);
     font-family:Arima Madurai;
@@ -306,5 +306,54 @@ footer{
 
 .guests a:hover{
     color:rgb(249, 50, 83);
+}
+/* room page */
+#luxury-suites{
+    background-color: aliceblue;
+}
+
+.rooms{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem; 
+
+}
+
+.rooms img{
+    border:3px solid white;
+}
+
+h3{
+    text-align: center;
+}
+
+.first{
+    background-color:rgba(56, 26, 26, 0.66);
+    padding:15px;
+    color:white;
+}
+
+.second{
+    background-color:rgba(56, 26, 26, 0.66);
+    padding:15px;
+    color:white;
+}
+
+.third{
+    background-color:rgba(56, 26, 26, 0.66);
+    padding:15px;
+    color:white;
+}
+
+.fourth{
+    background-color:rgba(56, 26, 26, 0.66);
+    padding:15px;
+    color:white;
+}
+
+.fifth{
+    background-color:rgba(56, 26, 26, 0.66);
+    padding:15px;
+    color:white;
 }
 }

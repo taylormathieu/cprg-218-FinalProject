@@ -461,7 +461,7 @@ item{
     display:grid;
     grid-template-columns:repeat(2, 1fr);
     gap:2rem;
-    align-items:baseline;
+    align-items:end;
 }
 
 .restaurants img{
@@ -488,3 +488,16 @@ item{
 }
 
 /* spa page */
+#serenity{
+    background-color: aliceblue;
+}
+
+.spa{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+    align-items:end;
+
+}
+
+

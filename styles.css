@@ -357,3 +357,93 @@ h3{
     color:white;
 }
 }
+
+/* activities page */
+.excursions{
+    background-color: aliceblue;
+}
+.onsite{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:2rem;
+    
+
+}
+
+.onsite img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.recreation{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:2rem;
+}
+
+.recreation img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.local{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:2rem;
+}
+
+.local img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.cultural{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:2rem;
+}
+
+.cultural img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.wildlife{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:2rem;
+}
+
+.wildlife img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.bookinginfo{
+    display:flex;
+    gap:40rem;
+    
+
+}
+
+#last{
+    font-size: 20px;
+    font-style: italic;
+}
+item{
+    background-color:rgba(56, 26, 26, 0.66); 
+    color:white;
+    text-align: center;
+}
+
+

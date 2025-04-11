@@ -447,3 +447,44 @@ item{
 }
 
 
+/* dining page*/
+
+.culinary{
+    background-color: aliceblue;
+}
+#h3{
+    color:rgba(56, 26, 26, 0.66);
+    text-align:center;
+}
+
+.restaurants{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+    align-items:baseline;
+}
+
+.restaurants img{
+    border:3px solid white;
+}
+
+.diner{
+    background-color:antiquewhite;
+
+}
+
+.info{
+    width:600px;
+    height:429px;
+    border:3px solid white;
+    background-color: pink;
+    padding:10px;
+    text-align:left;
+    
+}
+
+#other{
+    color:rgba(56, 26, 26, 0.66);
+}
+
+/* spa page */

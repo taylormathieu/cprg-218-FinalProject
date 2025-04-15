@@ -99,7 +99,7 @@
         background-color: aliceblue;
         color:black;
     }
-
+    /*homepage*/
     h2{
         color:rgb(80, 61, 39);
         font-family:Arima Madurai;
@@ -221,7 +221,7 @@
         padding:10px;
         margin:0; 
     }
-    
+    /*footer*/
     #footerlogo{
         max-width:300px;
         
@@ -323,7 +323,215 @@
     .guests a:hover{
         color:rgb(249, 50, 83);
     }
+    /*rooms page*/
+    #luxury-suites{
+        background-color: aliceblue;
+    }
+    
+    .rooms{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:2rem; 
+    
+    }
+    
+    .rooms img{
+        border:3px solid white;
+        max-width:100%;
+    }
+    
+    .rooms ul{
+        text-align:left;
+    }
+    
+    .first{
+        background-color:rgba(56, 26, 26, 0.66);
+        padding:15px;
+        color:white;
+    }
+    
+    .second{
+        background-color:rgba(56, 26, 26, 0.66);
+        padding:15px;
+        color:white;
+    }
+    
+    .third{
+        background-color:rgba(56, 26, 26, 0.66);
+        padding:15px;
+        color:white;
+    }
+    
+    .fourth{
+        background-color:rgba(56, 26, 26, 0.66);
+        padding:15px;
+        color:white;
+    }
+    
+    .fifth{
+        background-color:rgba(56, 26, 26, 0.66);
+        padding:15px;
+        color:white;
+    }
+/*activities page*/
+.excursions{
+    background-color: aliceblue;
 }
+.onsite{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+    
+
+}
+
+.onsite img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.recreation{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+}
+
+.recreation img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.local{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+}
+
+.local img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.cultural{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+}
+
+.cultural img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.wildlife{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+}
+
+.wildlife img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+
+
+#last{
+    font-size: 20px;
+    font-style: italic;
+}
+item{
+    background-color:rgba(56, 26, 26, 0.66); 
+    color:white;
+    text-align: center;
+}
+
+/*dining*/
+.culinary{
+    background-color: aliceblue;
+}
+#diningheader{
+    color:rgba(56, 26, 26, 0.66);
+    text-align:center;
+}
+
+.restaurants{
+    display:grid;
+    grid-template-columns:1fr;
+    align-items:end;
+}
+
+.restaurants img{
+    min-width:100%;
+    border:3px solid white;
+}
+
+.diner{
+    background-color:antiquewhite;
+
+}
+
+.info{
+    min-width:100%;
+    border:3px solid white;
+    background-color: pink;
+    padding:10px;
+    text-align:left;
+    
+}
+
+#other{
+    color:rgba(56, 26, 26, 0.66);
+    text-align: left;
+}
+
+/* spa page */
+#serenity{
+    background-color: aliceblue;
+}
+
+
+.spa{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:1rem;
+    align-items:end;
+
+}
+
+#h3{
+    color:white;
+}
+
+#spainfo{
+    background-color: pink;
+    border:3px solid white;
+    text-align:left;
+}
+
+#services ul{
+    text-align: left;
+}
+
+/*testimonials page*/
+.quotes{
+    text-align: center;
+    font-size:15px;
+    font-style: italic;
+}
+} 
+
+
 
 @media screen and (min-width:768px) {
     body{
@@ -645,6 +853,212 @@
     .guests a:hover{
         color:rgb(249, 50, 83);
     }
+
+    /*rooms page*/
+    #luxury-suites{
+        background-color: aliceblue;
+    }
+    
+    .rooms{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:2rem; 
+    
+    }
+    
+    .rooms img{
+        border:3px solid white;
+        max-width:100%;
+    }
+    
+    .rooms ul{
+        text-align:left;
+    }
+    
+    .first{
+        background-color:rgba(56, 26, 26, 0.66);
+        padding:15px;
+        color:white;
+    }
+    
+    .second{
+        background-color:rgba(56, 26, 26, 0.66);
+        padding:15px;
+        color:white;
+    }
+    
+    .third{
+        background-color:rgba(56, 26, 26, 0.66);
+        padding:15px;
+        color:white;
+    }
+    
+    .fourth{
+        background-color:rgba(56, 26, 26, 0.66);
+        padding:15px;
+        color:white;
+    }
+    
+    .fifth{
+        background-color:rgba(56, 26, 26, 0.66);
+        padding:15px;
+        color:white;
+    }
+/*activities page*/
+.excursions{
+    background-color: aliceblue;
+}
+.onsite{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+    
+
+}
+
+.onsite img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.recreation{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+}
+
+.recreation img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.local{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+}
+
+.local img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.cultural{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+}
+
+.cultural img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+.wildlife{
+    width:100%;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:2rem;
+}
+
+.wildlife img{
+    max-width:100%;
+    width:100vw;
+    border:3px solid white;
+}
+
+
+
+#last{
+    font-size: 20px;
+    font-style: italic;
+}
+item{
+    background-color:rgba(56, 26, 26, 0.66); 
+    color:white;
+    text-align: center;
+}
+
+/*dining*/
+.culinary{
+    background-color: aliceblue;
+}
+#h3{
+    color:rgba(56, 26, 26, 0.66);
+    text-align:center;
+}
+
+.restaurants{
+    display:grid;
+    grid-template-columns:1fr;
+    align-items:end;
+}
+
+.restaurants img{
+    border:3px solid white;
+}
+
+.diner{
+    background-color:antiquewhite;
+
+}
+
+.info{
+    min-width:100%;
+    border:3px solid white;
+    background-color: pink;
+    padding:10px;
+    text-align:left;
+    
+}
+
+#other{
+    color:rgba(56, 26, 26, 0.66);
+    text-align: left;
+}
+
+/* spa page */
+#serenity{
+    background-color: aliceblue;
+}
+
+
+.spa{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:1rem;
+    align-items:end;
+
+}
+
+#h3{
+    color:white;
+}
+
+#spainfo{
+    background-color: pink;
+    border:3px solid white;
+    text-align:left;
+}
+
+#services ul{
+    text-align: left;
+}
+
+/*testimonials page*/
+.quotes{
+    text-align: center;
+    font-size:15px;
+    font-style: italic;
+}
 
 }
 
@@ -1165,6 +1579,7 @@ item{
 
 }
 
+/*testimonials page*/
 .quotes{
     text-align: center;
     font-size:15px;

@@ -28,5 +28,16 @@ Ten Brinke Photography, "Thoughtful Monkey in Lush Thai Jungle", available under
 
 Quang Nguyen Vinh, "Photo Of People Catching Fishes", available under the Pexels Stock License: https://www.pexels.com/photo/photo-of-people-catching-fishes-2150362/
 
+Jhency Xang, "White Wooden Tables With Chairs Near Sea during Sunset", available under the Pexels Stock License: https://www.pexels.com/photo/white-wooden-tables-with-chairs-near-sea-during-sunset-3789045/
+
+Augustinus Martinus Noppe, "Brown Wooden Table and Chairs in a Restaurant", available under the Pexels Stock License: https://www.pexels.com/photo/brown-wooden-table-and-chairs-in-a-restaurant-14333989/
+
+Andrea Piacquadio, "Topless Woman Lying on Bed Getting Massage", available under the Pexels Stock License: https://www.pexels.com/photo/topless-woman-lying-on-bed-getting-massage-3757952/
+
+Gustavo Fring, "Woman Getting a Facial Treatment", available under the Pexels Stock License: https://www.pexels.com/photo/woman-getting-a-facial-treatment-3985329/
+
+Polina Tankilevitch, "Photo of Person's Hand Soak in Water", available under the Pexels Stock License: https://www.pexels.com/photo/photo-of-person-s-hand-soak-in-water-3738378/
+
+Tima Miroshnichenko, "2 Person Sitting on Brown Rock Near Sea", available under the Pexels Stock License: https://www.pexels.com/photo/2-person-sitting-on-brown-rock-near-sea-5928255/
 
 

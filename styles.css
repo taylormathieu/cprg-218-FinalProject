@@ -28,6 +28,10 @@ body{
 
 }
 
+main{
+    width:100%;
+}
+
 h1{
     
     color:white;
@@ -47,7 +51,7 @@ h1{
 
 
 nav{
-    width:100vw; 
+    width:100%; 
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -122,6 +126,7 @@ h4{
 }
 
 #section1{
+    width:100%;
     display:grid;
     grid-template-columns:repeat(3, 1fr);
     gap:2rem;
@@ -129,6 +134,7 @@ h4{
 }
 
 #palm{
+    max-width:100%;
     width:500px;
     height:368px;
     border:20px solid rgba(56, 26, 26, 0.66);
@@ -163,7 +169,8 @@ h4{
 } 
 
 #sand{
-    max-width:500px;
+
+    max-width:100%;
     border:5px solid white;
 }
 
@@ -175,7 +182,7 @@ h4{
 }
 
 #poolside{
-    max-width:500px;
+    max-width:100%;
     border:5px solid white;
 }
 
@@ -260,6 +267,10 @@ footer{
     padding:0px;
 }
 
+#ocean img{
+    max-width:100%;
+}
+
 #beachfront{
     color:white;
     border:3px solid rgba(56, 26, 26, 0.66);
@@ -267,11 +278,18 @@ footer{
     padding:0px;
 }
 
+#bechfront img{
+    max-width:100%;
+}
 #garden{
     color:white;
     border:3px solid rgba(56, 26, 26, 0.66);
     background-color:rgba(56, 26, 26, 0.66);
     padding:0px;
+}
+
+#garden img{
+    max-width:100%;
 }
 
 #blurbs{
@@ -500,4 +518,8 @@ item{
 
 }
 
-
+.quotes{
+    text-align: center;
+    font-size:25px;
+    font-style: italic;
+}
